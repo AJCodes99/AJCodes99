@@ -1,0 +1,55 @@
+|- Statistics Introduction -|
+
+
+- Data: is a term used to describe the characteristics and attributes of am item that can be analysed
+- Population: is the parnet group from which an experimnts data is collected
+- Sample: is the esubset of a population collected for the pupose of an experiement
+
+> Variable: Is a  characteristics of an item from which the population that varies in quantity or quality from another item -----------------------------------------------------------------------------------------------------------------------------------------------
+- Discrete variable: Is a qualitative data with finite number of values
+- Continuous variable: Is a quantitative data with an infinite number of values
+- Categorical Variable: Qualitative data that stores a catagory such gender 
+- Ordinal Variable: Qualitative data that stores ordered values such ascending and decending
+- Independant Variable(x)  It is generally the independat variable (x) tested in experiments. As the independant variable(x) changes the dependant variable(y) is observed and recorded. Dependant (x) is suposedly what impacts the outcome of (y)
+- Dependant Variable(y): It is generally the dependant variable(y) is observed and recorded and is normally what you try to predict.
+
+> Statistical measure categories: Typicically mathmatical methods of which data can be analysed for basic insights--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Measure of Frequency: Analysis of occurances of a particular value and records numebr of times it occurs
+
+- Measure of Central tendancy: Analyses group of values tendancy to (accumalate in the middle 'cental tendancy' ). Using methods namely mean and median 
+
+- Measures of Spread: Analyses how similar or varied a observed values are within the dataset. Namely standard deviation
+
+- Measures of Position: Identifies the exact location of an observed value within the dataset. Naamely standard scores
+
+> Statistics Explained--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Statistics: Statistics involves the collection , organising, analysing and interpretation of data
+
+- Goal of Statistics: To determin the meaning the data if relationship of results are meaningful or if there no relationship and results are by chance
+
+- Quantitative Analysis: A term used to describe numerical data analysis. It branches into Inferential Statistics and Descriptive Statistics
+
+- Inferential Statistics: Inferential Statistics: A branch of statistical analysis that uses probability to make inferences about a population based on sample data. 
+                          Generally most effective when dealing with datasets where population data exhibits randomness. 
+                          It uses mathematical models to make predictions or generalizations from a sample to a broader population, accounting for variability and uncertainty.
+
+- Descriptive Statistics: Used to organize and summarize the main features of a dataset, often through graphical representation, providing a clearer sense of the data's structure. 
+                          Typically applied before moving on to inferential analysis. Common methods include measures like Mean, Mode, Interquartile Range (IQR), and Standard Deviation (S.dev).
+                          Generally it is applied to dataset where values which are known.
+
+- Confidence: is a measure of how closely sample results are expected to match the true value of the population, typically expressed as a percentage between 0% and 100%. 
+              The closer the confidence level is to 100%, the more confident we are that the results approximate the true population value. 
+              However, a 100% confidence level is impossible in inferential statistics, as it implies certainty rather than estimation. 
+              For example, an n% confidence level means that if the experiment were repeated multiple times, the results would fall within the specified range n% of the time.
+
+- Hypothesis Testing: is a cutial part of inferential statistics is which you evaluate 2 mutually exclusive statements. To determine which event is true to the dataset given. (Mutually exclusive two terms cannot coenside, you cannt flip heads and tails at the same time)
+                      Due to the absence of data in inferental statiustics hypothesis testing is used to determine if theres reasonanle evidence from the sample to infer if a condition 'H0 or HA' holds true
+                      They are constructed around a hypothesiss statement. From this ststement if you discover indemendant variable(x) has no effect on dependant variable(y) the outcome confirms the null hypothesis. 
+                      H0 - is the commonly accepted fact but is simultaniously open to contrary arguments. ('H1' = contrary argument the alternative hypothesis) and ('h0' is the commently accepted fact, the null hypothesis)
+                      If there enough evidence to suppost the contrary then the null hypothesis is rejected and the alternatiuve hypotheisis is accepted to explain the randomness or phenomnena
+                      
+
+
+> Data Sampling--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
