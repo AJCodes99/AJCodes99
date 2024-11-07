@@ -1,24 +1,25 @@
 |- Statistics Introduction -|
 
 
-- Data: is a term used to describe the characteristics and attributes of am item that can be analysed
-- Population: is the parnet group from which an experimnts data is collected
-- Sample: is the esubset of a population collected for the pupose of an experiement
+Data: Characteristics or attributes of items that can be collected and analyzed.
+Population: The entire group of interest in an experiment from which data could be collected.
+Sample: A subset of the population selected for analysis in an experiment.
 
-> Variable: Is a  characteristics of an item from which the population that varies in quantity or quality from another item -----------------------------------------------------------------------------------------------------------------------------------------------
-- Discrete variable: Is a qualitative data with finite number of values
-- Continuous variable: Is a quantitative data with an infinite number of values
-- Categorical Variable: Qualitative data that stores a catagory such gender 
-- Ordinal Variable: Qualitative data that stores ordered values such ascending and decending
-- Independant Variable(x)  It is generally the independat variable (x) tested in experiments. As the independant variable(x) changes the dependant variable(y) is observed and recorded. Dependant (x) is suposedly what impacts the outcome of (y)
-- Dependant Variable(y): It is generally the dependant variable(y) is observed and recorded and is normally what you try to predict.
+> Variable: Is a  characteristics of an item from which the population that varies in quantity or quality between items -----------------------------------------------------------------------------------------------------------------------------------------------
+  Types of Variables:
+  -Discrete Variable: Quantitative data with a finite number of values (e.g., number of students in a class).
+  -Continuous Variable: Quantitative data with an infinite range of possible values within an interval (e.g., height, temperature).
+  -Categorical Variable: Qualitative data that represent categories or groups (e.g., gender, color).
+  -Ordinal Variable: Qualitative data that have a meaningful order or ranking (e.g., rating scale from 1 to 5).
+  -Independent Variable (x): The variable that is manipulated in an experiment to observe its effect on the dependent variable. It’s the assumed cause.
+  -Dependent Variable (y): The variable that is measured or observed to determine the effect of changes in the independent variable. It’s the outcome we are trying to predict.
 
 
 > Statistical measure categories: Typicically mathmatical methods of which data can be analysed for basic insights--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - Measure of Frequency: Analysis of occurances of a particular value and records numebr of times it occurs
 
-- Measure of Central tendancy: Analyses group of values tendancy to (accumalate in the middle 'cental tendancy' ). Using methods namely mean and median 
+- Measure of Central tendancy: Analyses group of values tendancy to (accumalate in the middle 'cental tendancy'. Using methods namely mean and median 
 
 - Measures of Spread: Analyses how similar or varied a observed values are within the dataset. Namely standard deviation
 
@@ -27,24 +28,23 @@
 
 > Statistics Explained--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- Statistics: Statistics involves the collection , organising, analysing and interpretation of data
+| Statistics Explained |
 
-- Goal of Statistics: To determin the meaning the data if relationship of results are meaningful or if there no relationship and results are by chance
+Statistics: The field involving the collection, organization, analysis, and interpretation of data.
 
-- Quantitative Analysis: A term used to describe numerical data analysis. It branches into Inferential Statistics and Descriptive Statistics
+Goal of Statistics: To determine if the patterns in data are meaningful (indicating a relationship) or if they are due to random chance.
 
-- Inferential Statistics: Inferential Statistics: A branch of statistical analysis that uses probability to make inferences about a population based on sample data. 
-                          Generally most effective when dealing with datasets where population data exhibits randomness. 
-                          It uses mathematical models to make predictions or generalizations from a sample to a broader population, accounting for variability and uncertainty.
+Quantitative Analysis: The analysis of numerical data. This divides into Inferential Statistics and Descriptive Statistics:
 
-- Descriptive Statistics: Used to organize and summarize the main features of a dataset, often through graphical representation, providing a clearer sense of the data's structure. 
-                          Typically applied before moving on to inferential analysis. Common methods include measures like Mean, Mode, Interquartile Range (IQR), and Standard Deviation (S.dev).
-                          Generally it is applied to dataset where values which are known.
+Inferential Statistics: Uses sample data to make inferences about a larger population, often using probability models. Effective when population data show randomness. Commonly involves hypothesis testing and confidence intervals to account for variability and uncertainty in predictions.
 
-- Confidence: is a measure of how closely sample results are expected to match the true value of the population, typically expressed as a percentage between 0% and 100%. 
-              The closer the confidence level is to 100%, the more confident we are that the results approximate the true population value. 
-              However, a 100% confidence level is impossible in inferential statistics, as it implies certainty rather than estimation. 
-              For example, an n% confidence level means that if the experiment were repeated multiple times, the results would fall within the specified range n% of the time.
+Inference: A conclusion drawn based on evidence and reasoning. For example, "We analyze the data to make inferences."
+
+Descriptive Statistics: Summarizes and describes the main features of a dataset, often using graphical representations to provide an overview of its structure. Common methods include mean, mode, median, interquartile range (IQR), and standard deviation. Typically applied to datasets with complete data.
+
+Confidence Level: The probability that the results from a sample reflect the true values for the population, expressed as a percentage (e.g., 95%). A higher confidence level (close to 100%) indicates a stronger belief that the sample accurately represents the population, but 100% confidence is unattainable in inferential statistics, as absolute certainty is impossible.
+
+
 
 - Hypothesis Testing: is a cutial part of inferential statistics is which you evaluate 2 mutually exclusive statements. To determine which event is true to the dataset given. (Mutually exclusive two terms cannot coenside, you cannt flip heads and tails at the same time)
                       Due to the absence of data in inferental statiustics hypothesis testing is used to determine if theres reasonanle evidence from the sample to infer if a condition 'H0 or HA' holds true
@@ -55,3 +55,94 @@
 
 
 > Data Sampling--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Types of Data Sampling 
+(Should Be)
+- Independant Data: Each selection of on eitem should not affect the selection of annother
+- Random Selection: Having 2 groups where participants are double blinded and are chosen an random.
+(Should NOT Be)
+- Information Censoring: when a significant drop out of participants occurs, can incite bias as varience 
+- Social Desireability Bias: When respodants are inclined to paint themselves in a light that meets social norms 
+- Collection Bias: Data observation must be unbaised and unmanipulated by the colllecting party
+
+> Odds and Probability Explained ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- As hypothesis test cannot give the odds or probaility(P/A) of an even we use thesse methods. For example h1 given the humidity it will rain today. P/A tell us by char numerical chance.
+
+- Odds: are the chance of an even occoring for every chance the event does not occur. for example chance of rolling any nimber is 1 in 6. Odds are normally shown as a ratio but can be a percentage also.
+- Probability: is a the chance an even will occur given in percentage.
+- Correlation: is a related to probability and is often automaticall calcualted in detailed analytics tests such as in Minitab or SPSS. 
+               And helps understand the relationship between variables by decscibing the tendancy of change in one variable reflect change in another.
+- Causation: a casual relationship between variables for exampel if two variables follow the same patter doesnnt nessesarly mean it correlates.
+- Lurking variable: as variables appear to vary together they may appear connected but in reality the observed differences could be caused by an unknown and unconsisdered variable know as lurking or confounding variable. 
+                    This is a common pitfall when confusing correlation with causality. Another common pitfall is analysing too many variables, this is all to common when using google/correlation/trends. You begin to see the issue. 
+                    The more variables the greather the ranges in variation which assumes a casual nature (causaility) when compare top two searches that are more pausible and assumes a correlation
+                    Just becaue a chart displays variables correlation does not mean theres any meaningful relationship. This 'curse' affects ML and data mining more than hypothesis testing due to the numebr of variables
+
+> Independant Events vs Conditional Probability
+- Conditional probability P(A|B):is the probability of one event happening given that another event has already occurred 
+- Independant Event are events where the occurrence of one event does not affect the probability of the other event
+- In statistics look apparent covarience is meaningful. (covarience is the measure of directional relationship between 2 variables). Either the covarience is independant or conditional.
+  the covarience/event is independant if one outcome has no affect on the other. for example coinflips twice. heads has no affect on the outcome of tails and visa-versa.
+  my favorite example. Its raining outside. The rain does NOT affect size of my house. However it does afect the lawn. 
+  My house is the independant and the grass and rain are dependant. 
+
+> Bayes Theory
+  - The premise of the theory is to find the probability of an event based on prior knowledge of condition portentially related to the event. This general theory in universal in many applications such as prediction risks of credit defaults or medical diagnostics.
+  - Works well when there is dependancy or correleation between variables. A = its raining today, B = grey cloudy weather
+  - P(A|B) =  P(A) * P(B|A) / P(B) - Bayes probaility theory
+  - P(B|A) =  P(B) * P(A|B) / P(A) - Reverse Bayes probaility theory (Tip to reverse theory swap (A to B))
+
+  - P(A|B) Conditional probability
+  - P(A) Unconditional Probability or Marginal Probability
+  - P(B) Unconditional Probability or Marginal Probability
+
+  - Binomial Probability: Is probability method used to interpret two possible outcomes. Used in (pregnancy, drugs, coinflip)
+  - Permutations: is a method for calcualtion and handling large numbers of combinations 
+
+- Central Tendency: the propensity for data to centralise to a certain point when avaraged. Common methods for calculating central tendency is (Mean, Median, Mode)
+                    As will be demonstaretd the appropriate measure of central tendency highly depends on the comnposition of data
+  - Mean:  all values sumerised and deviided by individual sets
+  - Weighted Mean: all values sumerised and deviided by individual sets
+  - Median: Great method for 
+  - Mode: is the commonly occuring value in dataset. best used in ordered number of discrete(finite) values. issue swith this method occurs with arbatrary data where there is no conclusive modal value.
+
+Measures of Spread:  
+Range: A simple measurement of varience. In certain ceumstances can be usful although can be suseptible anomelies for example extreme values assume high varience in the dataset. Which often ignores data clusters therefore not reflecting the datas true structure
+    - Standard Deviation (St.D): An alternative to the range, and more practical approach to measuring data varience. St.D describes the extent of individual observations differ from the mean essentially the spread of dispertion of data points.
+                          St.D measures variability by calulating average squared distance of each data point from the mean. When the metric is lower than the mean it indicates most of the data values are clustered closely together and high St.D indicates higher variability
+                          Using the St.D formula you can calculate varience of each plotpoint. Sum the variance. As well as apply squareroot to bring the value back to a usable metric.
+
+      - Varience: Variance: A measure of how spread out the values in a dataset are around the mean. It is calculated as the average of the squared differences between each data point and the mean. 
+                          Variance is the square of the standard deviation and represents the "average squared distance" of each value from the mean, providing an inflated view of the spread to prevent cancellation of positive and negative deviations.
+
+    - Emperirical Rule: a useful visual technique for interpreting data variance plotted onto a histogram. An ddescribes the normal distribution as   68% data lies within 1 St.D of mean. 95% within 2 St.D of the mean and 99.7% within 3 St.D of the mean.
+                  known as the 'three sigma rule' 68, 95, 99.7 (sigma the mathematical symbol for St.D)
+
+    - Normal distribution: is the bell curve observed and obtained by implementing the empirical rule. A normal distribution with a 'Mean of 0 and St.D of 1' is also know as standard normal distribution
+                    normal distribution is a resonable representation of real world cariables diverge around the mean this pheoneomoa is what sknown as empirical rule.
+                     normal distribution > standard normal distribution (by converting original values into standardised scores) for more details see the St.D notes in my notability.
+                     68% data lies within 1 St.D on dataset. 27% within 2 St.D of the dataset and 4.7% within 3 St.D of dataset. Each St.D is calcualted mean +- standard diviation. 
+                    the more data thats is collected more more values that fit the 1 St.D contorting the bell curve even pointier. Even other other method of central tendency (fall within the 1 St.D the curve) 
+  
+    - Measures of Position: measures the porobaility of duplicating a result. As a weakness of the St.D Maps the variance of whole dataset. Although not the variance of individual plotpoints
+    
+           - Z-Score: Now the z-scores was found using a methods of standard normal distribution called z-distribution to find the Z score. 
+             Is a standardised unit or measure and a method which finds the distance from individual datapoint to the samples mean. If the value of interest is is above or below the mean. for example sample value -3- 2 -1 0 1 2 3 St.d above or below the mean.
+             and can also be expressed in floating point for example -2.1 standard deviations below the mean. 
+              You could consider any value more than 2 St.D above or below the mean and anomolous. Z-scores are essestial for detection of outliers or anomalies and important to recongnise the difference
+              calcualte z-score > z-distribution to interpret z-scores > z distribution tells us all possible zscores from 0 mean to 1 St.D > z-table or analytical software to find percentiles and predictions
+              Use: When population sample >30 
+
+           - Outliers: Represent larger grouping of data are are more plentiful. They often don no follow obvious patterns in a dataset.
+           - Anomalies: Rare abbnormal event that should not have occured. on a normal distribution detecting anomalies are straight forward. 
+                If the Z-Score has a standardised score >=+-3 St.D then it falles within the ranges of 99.7% of values. This is considered fraudulent or an environmental crisis in respective DS domains  
+
+     - T-Score: Sometimes the mean isnt normally distributed or the standard deviation is unknown or unreliable for a host of reasons as more data is added to the dataset the mean St.D z-scores warp. 
+               Thereofre we dont know if the sample is a true representation of the population. Unlike Z-Distributions bellcurve the T-distribution when sample size is relatively small e.g. 10 the data a noteable proportion of date is located in the curve tails
+                Calculating the T-Scores diffrers from z-score as St.D is divided by sample. the standard divaition relates to the samples is expectaiton to reflect the population.
+                As the T-scores doesnt follow the 'three sigma rule we use' you use the t-table to find the pobability of the result, the t tables displayes degrees of freedom which is sample size - df
+    - degrees of freedom: population sample size - 1 methric to calcualte probability using a t-table and t distribution
+
+                      
+how to interpret t-table 
+When calculating z-scores for all index values how and what do you do for interpretaion and predicitons? T-scores plot st.d onto t-tables what does z-score do for predition? just use its value to dertermin wheater its an outlier or anomoly?
+Tscore formula  jsut like whenb calcualtion st.d the division aims to emilinate bias how does this work? how do we know this works? 
