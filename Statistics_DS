@@ -85,7 +85,7 @@ Confidence Level: The probability that the results from a sample reflect the tru
   my favorite example. Its raining outside. The rain does NOT affect size of my house. However it does afect the lawn. 
   My house is the independant and the grass and rain are dependant. 
 
-> Bayes Theory
+  > Bayes Theory
   - The premise of the theory is to find the probability of an event based on prior knowledge of condition portentially related to the event. This general theory in universal in many applications such as prediction risks of credit defaults or medical diagnostics.
   - Works well when there is dependancy or correleation between variables. A = its raining today, B = grey cloudy weather
   - P(A|B) =  P(A) * P(B|A) / P(B) - Bayes probaility theory
@@ -98,23 +98,23 @@ Confidence Level: The probability that the results from a sample reflect the tru
   - Binomial Probability: Is probability method used to interpret two possible outcomes. Used in (pregnancy, drugs, coinflip)
   - Permutations: is a method for calcualtion and handling large numbers of combinations 
 
-- Central Tendency: the propensity for data to centralise to a certain point when avaraged. Common methods for calculating central tendency is (Mean, Median, Mode)
+  > Central Tendency: the propensity for data to centralise to a certain point when avaraged. Common methods for calculating central tendency is (Mean, Median, Mode)
                     As will be demonstaretd the appropriate measure of central tendency highly depends on the comnposition of data
   - Mean:  all values sumerised and deviided by individual sets
   - Weighted Mean: all values sumerised and deviided by individual sets
   - Median: Great method for 
   - Mode: is the commonly occuring value in dataset. best used in ordered number of discrete(finite) values. issue swith this method occurs with arbatrary data where there is no conclusive modal value.
 
-Measures of Spread:  
-Range: A simple measurement of varience. In certain ceumstances can be usful although can be suseptible anomelies for example extreme values assume high varience in the dataset. Which often ignores data clusters therefore not reflecting the datas true structure
-    - Standard Deviation (St.D): An alternative to the range, and more practical approach to measuring data varience. St.D describes the extent of individual observations differ from the mean essentially the spread of dispertion of data points.
+  > Measures of Spread:  
+  - Range: A simple measurement of varience. In certain ceumstances can be usful although can be suseptible anomelies for example extreme values assume high varience in the dataset. Which often ignores data clusters therefore not reflecting the datas true structure
+  - Standard Deviation: An alternative to the range, and more practical approach to measuring data varience. St.D describes the extent of individual observations differ from the mean essentially the spread of dispertion of data points.
                           St.D measures variability by calulating average squared distance of each data point from the mean. When the metric is lower than the mean it indicates most of the data values are clustered closely together and high St.D indicates higher variability
                           Using the St.D formula you can calculate varience of each plotpoint. Sum the variance. As well as apply squareroot to bring the value back to a usable metric.
 
-      - Varience: Variance: A measure of how spread out the values in a dataset are around the mean. It is calculated as the average of the squared differences between each data point and the mean. 
+  - Varience: Variance: A measure of how spread out the values in a dataset are around the mean. It is calculated as the average of the squared differences between each data point and the mean. 
                           Variance is the square of the standard deviation and represents the "average squared distance" of each value from the mean, providing an inflated view of the spread to prevent cancellation of positive and negative deviations.
 
-    - Emperirical Rule: a useful visual technique for interpreting data variance plotted onto a histogram. An ddescribes the normal distribution as   68% data lies within 1 St.D of mean. 95% within 2 St.D of the mean and 99.7% within 3 St.D of the mean.
+  - Emperical Rule: a useful visual technique for interpreting data variance plotted onto a histogram. An describes the normal distribution as 68% data lies within 1 St.D of mean. 95% within 2 St.D of the mean and 99.7% within 3 St.D of the mean.
                   known as the 'three sigma rule' 68, 95, 99.7 (sigma the mathematical symbol for St.D)
 
     - Normal distribution: is the bell curve observed and obtained by implementing the empirical rule. A normal distribution with a 'Mean of 0 and St.D of 1' is also know as standard normal distribution
@@ -144,5 +144,5 @@ Range: A simple measurement of varience. In certain ceumstances can be usful alt
 
                       
 how to interpret t-table 
-When calculating z-scores for all index values how and what do you do for interpretaion and predicitons? T-scores plot st.d onto t-tables what does z-score do for predition? just use its value to dertermin wheater its an outlier or anomoly?
+
 Tscore formula  jsut like whenb calcualtion st.d the division aims to emilinate bias how does this work? how do we know this works? 
