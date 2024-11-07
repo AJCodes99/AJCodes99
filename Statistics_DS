@@ -11,8 +11,8 @@ Sample: A subset of the population selected for analysis in an experiment.
   -Continuous Variable: Quantitative data with an infinite range of possible values within an interval (e.g., height, temperature).
   -Categorical Variable: Qualitative data that represent categories or groups (e.g., gender, color).
   -Ordinal Variable: Qualitative data that have a meaningful order or ranking (e.g., rating scale from 1 to 5).
-  -Independent Variable (x): The variable that is manipulated in an experiment to observe its effect on the dependent variable. It’s the assumed cause.
-  -Dependent Variable (y): The variable that is measured or observed to determine the effect of changes in the independent variable. It’s the outcome we are trying to predict.
+  -Independent Variable (x): The variable that is manipulated in an experiment to observe its effect on the dependent variable. It’s the assumed cause of changes in dependant variable.
+  -Dependent Variable (y): The variable that is measured or observed to determine the effect of changes as a resukt the independent variable. It’s the outcome we are trying to predict.
 
 
 > Statistical measure categories: Typicically mathmatical methods of which data can be analysed for basic insights--------------------------------------------------------------------------------------------------------------------------------------------------------
