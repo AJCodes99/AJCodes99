@@ -1,28 +1,96 @@
 Quiz: Statistics Fundamentals
+This is designed in a way to constantly add new topics, update and revisite old ones
 
 Questions
-What is a population in statistics?
 
-Define a sample.
+ - STATISTICS INTRO QUIZ:
+
+Define data
+Define a sample
 Define a population (in respects to statictics)
-
 Describe variance in your own words.
-
 What is a discrete variable? Provide an example.
-
 What is an ordinal variable? Provide an example.
-
 Explain the difference between a categorical variable and an ordinal variable.
+What is a discrete variable? Provide an example.
+What is an continous variable? Provide an example.
+What is a independant variable? Provide an example.
+What is an dependant variable? Provide an example.
+Explain the difference between a independant variable and an dependant variable.
+Explain is the general relatiosnhip between independant and dependant variables and give an example
+Name explain in your own words 4 statistical measures. Central tendancy, Spread, Frequency, Position
 
-What is the formula for variance in a sample?
-Calculate the varience of the dataset [2, 4, 4, 4, 5, 5, 7, 9]
 
-Fill in the blanks: Standard deviation is the ________ of the varience.
+ - STATISTICS EXPLAINED:
 
-Write out the formula for calculating standard deviation and explain the main componants of the formula
-Calculate the standard deviation for the dataset [2, 4, 4, 4, 5, 5, 7, 9]. Use the Standard Deviation formula you constructed
- 
-​
- 
-​
-Answers
+In your own words, what is statistics and the general goal of statistics?
+What is a population in statistics?
+What is meant by descriptive statistics?
+Explain quantitative analysis and the 2 branches. Inferential and Destriptive statistics
+What are the sub categories of quantitative analytics?
+What is mean by the term inference
+what is inferential statistics?
+Explain confidence in relation to inferential statistics
+Give a brief description of hypothesis testing and an example of how you would write a hypothetical question in statistics
+
+
+ - DATA SAMPLING:
+
+An example of good samples from a population, samples should be? 
+An example of bad samples from a population, samples NOT should be? 
+Explain why these exsamples are good and why they are bad practices for sampling
+
+
+- ODDS AND PROBABILITY:
+
+Define the tems Odds
+Define the term Probabilits
+Define the term Correlation
+Define the term Causation
+What is meant by a lurking variable
+Explain the relationship and any issues in refrence to Causation, Correlation to lurking variables
+Define contidional probability and it is statistically expressed in bayes theorm P = ()
+Write down bayes theory formula and explain how it work with an example.
+What is bionomial probability give and example how can it be used so determine the probability of an event(s)?
+What are permutatuons and why is it used?
+
+- CENTRAL TENDANCY:
+
+Explain what is meant by central tendancy
+What is central tendency and what are the 3 most basic methods are used to measure?
+Explain use those three methods to calculate central tendancy for this data set [2, 4, 4, 4, 5, 5, 7, 9]
+Appraisal..what are 2 the benifits and 2 down side for each measure?
+Reasearch or If already know how is the weighted mean calulated and what is the formula? Write it down
+
+
+- MEASURES OF SPREAD:
+
+Explain what is meant by measures of spread
+Name two measures of spread. Explain what they are
+How are the 2 named measures of spread calculated write the method or formulas
+What is the range of this dataset? [2, 4, 4, 4, 5, 5, 7, 9]
+What is the standard deviation of this dataset [2, 4, 4, 4, 5, 5, 7, 9]
+Define variance and how it is calcualted write down the formula used to calculate variance
+Defiene the emperical rule explain in refrence to 3 sigma rule
+Explain what the normal distribution
+Draw the normal distribution and lebel with with explainations
+
+
+- MEASUIRES OF POSITION:
+
+Explain hwat is meant by measures of position
+Give a brief explainaton of Z-Score
+How is z-score calculated and write out the formula expalining each componant
+Define anomaly
+How would statisticians define Outliers?
+Give a brief explaination of T-Score
+How is t-score calculated and write out the formula expalining each componant
+Define degrees of freedone and why is used​
+How do you interpret results from T-score of t table give a brief expalination
+In what situation would you use the z-scores over the t-score and why?
+What does the t-score tell an analyst that the z-score does not? 
+
+My Answers 
+
+My answers are written on ipad as writing out a question and explaining thoughts help me commmit to a concept, or definition to memory
+my methond was to study a block and attempt to answer. Revisit them days later and answer them again is will determin is I understand or am I just parroting my recent reads
