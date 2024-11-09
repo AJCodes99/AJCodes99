@@ -7,8 +7,8 @@ Sample: A subset of the population selected for analysis in an experiment.
 
 > Variable: Is a  characteristics of an item from which the population that varies in quantity or quality between items -----------------------------------------------------------------------------------------------------------------------------------------------
   Types of Variables:
-  -Discrete Variable: Quantitative data with a finite number of values (e.g., number of students in a class).
-  -Continuous Variable: Quantitative data with an infinite range of possible values within an interval (e.g., height, temperature).
+  -Discrete Variable: Quantitative data with a finite number of values (e.g., number of students in a class). (dripping tap) - each drop can be counted, measured using integer
+  -Continuous Variable: Quantitative data with an infinite range of possible values within an interval (e.g., height, temperature). (running tap) - waterdrops can only be measured, measured using decimal
   -Categorical Variable: Qualitative data that represent categories or groups (e.g., gender, color).
   -Ordinal Variable: Qualitative data that have a meaningful order or ranking (e.g., rating scale from 1 to 5).
   -Independent Variable (x): The variable that is manipulated in an experiment to observe its effect on the dependent variable. It’s the assumed cause of changes in dependant variable.
@@ -30,8 +30,7 @@ Sample: A subset of the population selected for analysis in an experiment.
 
 | Statistics Explained |
 
-Statistics: The field involving the collection, organization, analysis, and interpretation of data.
-
+Statistics: The field involving the collection, organization, analysis, and interpretation of data why? > Becasue The 
 Goal of Statistics: To determine if the patterns in data are meaningful (indicating a relationship) or if they are due to random chance.
 
 Quantitative Analysis: The analysis of numerical data. This divides into Inferential Statistics and Descriptive Statistics:
@@ -43,7 +42,6 @@ Inference: A conclusion drawn based on evidence and reasoning. For example, "We 
 Descriptive Statistics: Summarizes and describes the main features of a dataset, often using graphical representations to provide an overview of its structure. Common methods include mean, mode, median, interquartile range (IQR), and standard deviation. Typically applied to datasets with complete data.
 
 Confidence Level: The probability that the results from a sample reflect the true values for the population, expressed as a percentage (e.g., 95%). A higher confidence level (close to 100%) indicates a stronger belief that the sample accurately represents the population, but 100% confidence is unattainable in inferential statistics, as absolute certainty is impossible.
-
 
 
 - Hypothesis Testing: is a cutial part of inferential statistics is which you evaluate 2 mutually exclusive statements. To determine which event is true to the dataset given. (Mutually exclusive two terms cannot coenside, you cannt flip heads and tails at the same time)
