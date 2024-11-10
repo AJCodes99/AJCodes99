@@ -139,11 +139,11 @@ Confidence Level: The probability that the results from a sample reflect the tru
                 The standard diviation of small dataset are suseptible to change as more data is added, so we dont know if the mean and St.d are good reflection for the population so we calculate the t-score using t-distribution
                 Therefore we dont know if the sample is a true representation of the population. Unlike Z-Distributions bellcurve the T-distribution when sample size is relatively small e.g. 10 the data a noteable proportion of date is located in the curve tails
                 T-distribution curve changes shape accoding to sample size. (flat curve - little sample, clustered middle dataset) or assuming a bell curve with more data.
-                Calculating the T-Scores diffrers from z-score as St.D is divided by sample. the standard deviation aims to reflect the pupolation by dividing St.d by sample size.
+                In theCalculating the T-Scores St.D is divided by sample size. the standard deviation aims to reflect the pupolation by dividing St.d by sample size.
                 As the T-scores doesnt follow the 'three sigma rule we use' you use the t-table to find the pobability of the result, the t tables displayes degrees of freedom which is sample size - df
     - degrees of freedom: population sample size - 1 methric to calcualte probability using a t-table and t distribution
 
                       
 how to interpret t-table 
 
-Tscore formula  jsut like whenb calcualtion st.d the division aims to emilinate bias how does this work? how do we know this works? 
+T-score formula  jsut like whenb calcualtion st.d the division aims to emilinate bias how does this work? how do we know this works? 
