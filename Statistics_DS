@@ -124,7 +124,8 @@ Confidence Level: The probability that the results from a sample reflect the tru
     - Measures of Position: measures the porobaility of duplicating a result. As a weakness of the St.D Maps the variance of whole dataset. Although not the variance of individual plotpoints
     
            - Z-Score: Now the z-scores was found using a methods of standard normal distribution called z-distribution to find the Z score. 
-             Is a standardised unit or measure and a method which finds the distance from individual datapoint to the samples mean. If the value of interest is is above or below the mean. for example sample value -3- 2 -1 0 1 2 3 St.d above or below the mean.
+             Is a standardised unit of measure which measures the distance from individual datapoint to the sample mean in datasets >30+ based on z-distribution which is bell curve observed.
+              If the value of interest is is above or below the mean. for example sample value -3- 2 -1 0 1 2 3 St.d above or below the mean.
              and can also be expressed in floating point for example -2.1 standard deviations below the mean. 
               You could consider any value more than 2 St.D above or below the mean and anomolous. Z-scores are essestial for detection of outliers or anomalies and important to recongnise the difference
               calcualte z-score > z-distribution to interpret z-scores > z distribution tells us all possible zscores from 0 mean to 1 St.D > z-table or analytical software to find percentiles and predictions
@@ -134,9 +135,11 @@ Confidence Level: The probability that the results from a sample reflect the tru
            - Anomalies: Rare abbnormal event that should not have occured. on a normal distribution detecting anomalies are straight forward. 
                 If the Z-Score has a standardised score >=+-3 St.D then it falles within the ranges of 99.7% of values. This is considered fraudulent or an environmental crisis in respective DS domains  
 
-     - T-Score: Sometimes the mean isnt normally distributed or the standard deviation is unknown or unreliable. This could be due to insufficient sampling. as more data is added to the dataset the mean St.D z-scores warp. 
-               Thereofre we dont know if the sample is a true representation of the population. Unlike Z-Distributions bellcurve the T-distribution when sample size is relatively small e.g. 10 the data a noteable proportion of date is located in the curve tails
-                Calculating the T-Scores diffrers from z-score as St.D is divided by sample. the standard divaition relates to the samples is expectaiton to reflect the population.
+     - T-Score: Sometimes the mean isnt normally distributed or the standard deviation is unknown or unreliable. This could be due to insufficient sampling. 
+                The standard diviation of small dataset are suseptible to change as more data is added, so we dont know if the mean and St.d are good reflection for the population so we calculate the t-score using t-distribution
+                Therefore we dont know if the sample is a true representation of the population. Unlike Z-Distributions bellcurve the T-distribution when sample size is relatively small e.g. 10 the data a noteable proportion of date is located in the curve tails
+                T-distribution curve changes shape accoding to sample size. (flat curve - little sample, clustered middle dataset) or assuming a bell curve with more data.
+                Calculating the T-Scores diffrers from z-score as St.D is divided by sample. the standard deviation aims to reflect the pupolation by dividing St.d by sample size.
                 As the T-scores doesnt follow the 'three sigma rule we use' you use the t-table to find the pobability of the result, the t tables displayes degrees of freedom which is sample size - df
     - degrees of freedom: population sample size - 1 methric to calcualte probability using a t-table and t distribution
 
