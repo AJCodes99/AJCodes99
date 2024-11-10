@@ -134,7 +134,7 @@ Confidence Level: The probability that the results from a sample reflect the tru
            - Anomalies: Rare abbnormal event that should not have occured. on a normal distribution detecting anomalies are straight forward. 
                 If the Z-Score has a standardised score >=+-3 St.D then it falles within the ranges of 99.7% of values. This is considered fraudulent or an environmental crisis in respective DS domains  
 
-     - T-Score: Sometimes the mean isnt normally distributed or the standard deviation is unknown or unreliable for a host of reasons as more data is added to the dataset the mean St.D z-scores warp. 
+     - T-Score: Sometimes the mean isnt normally distributed or the standard deviation is unknown or unreliable. This could be due to insufficient sampling. as more data is added to the dataset the mean St.D z-scores warp. 
                Thereofre we dont know if the sample is a true representation of the population. Unlike Z-Distributions bellcurve the T-distribution when sample size is relatively small e.g. 10 the data a noteable proportion of date is located in the curve tails
                 Calculating the T-Scores diffrers from z-score as St.D is divided by sample. the standard divaition relates to the samples is expectaiton to reflect the population.
                 As the T-scores doesnt follow the 'three sigma rule we use' you use the t-table to find the pobability of the result, the t tables displayes degrees of freedom which is sample size - df
