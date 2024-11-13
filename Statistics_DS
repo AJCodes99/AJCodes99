@@ -132,7 +132,7 @@ MEASURES OF SPREAD--------------------------------------------------------------
     
            - Z-Score: Now the z-scores was found using a methods of standard normal distribution called z-distribution to find the Z score. 
              Is a standardised unit of measure which measures the distance from individual datapoint to the sample mean in datasets >30+ based on z-distribution which is bell curve observed.
-              If the value of interest is is above or below the mean. for example sample value -3- 2 -1 0 1 2 3 St.d above or below the mean.
+              If the value of interest is is above or below the mean. for example sample value -3- 2 -1 0 1 2 3 St.d above or below the mean. Therefore the closer the z score to 0 the near it is to the mean
              and can also be expressed in floating point for example -2.1 standard deviations below the mean. 
               You could consider any value more than 2 St.D above or below the mean and anomolous. Z-scores are essestial for detection of outliers or anomalies and important to recongnise the difference
               calcualte z-score > z-distribution to interpret z-scores > z distribution tells us all possible zscores from 0 mean to 1 St.D > z-table or analytical software to find percentiles and predictions
