@@ -34,13 +34,18 @@ Goal of Statistics: To determine if the patterns in data are meaningful (indicat
 
 Quantitative Analysis: The analysis of numerical data. This divides into Inferential Statistics and Descriptive Statistics:
 
-Inferential Statistics: Uses sample data to make inferences about a larger population, often using probability models. Effective when population data show randomness. Commonly involves hypothesis testing and confidence intervals to account for variability and uncertainty in predictions.
+Inferential Statistics: Uses sample data to make inferences about a larger population, often using probability models. Effective when population data show randomness.   
+                        Commonly involves hypothesis testing and confidence intervals to account for variability and uncertainty in predictions.
 
 Inference: A conclusion drawn based on evidence and reasoning. For example, "We analyze the data to make inferences."
 
-Descriptive Statistics: Summarizes and describes the main features of a dataset, often using graphical representations to provide an overview of its structure. Common methods include mean, mode, median, interquartile range (IQR), and standard deviation. Typically applied to datasets with complete data.
+Descriptive Statistics: Summarizes and describes the main features of a known, complete dataset, without making predictions or generalizations. 
+                        Common methods include measures of central tendency (mean, median, mode) and measures of variability (interquartile range, standard deviation). 
+                        Descriptive statistics often use graphical representations, such as boxplots and bar charts, to provide a clear overview of data structure and distribution.
 
-Confidence Level: The probability that the results from a sample reflect the true values for the population, expressed as a percentage (e.g., 95%). A higher confidence level (close to 100%) indicates a stronger belief that the sample accurately represents the population, but 100% confidence is unattainable in inferential statistics, as absolute certainty is impossible.
+Confidence Level: The probability that the results from a sample reflect the true values for the population, expressed as a percentage (e.g., 95%). 
+                  A higher confidence level (close to 100%) indicates a stronger belief that the sample accurately represents the population. 
+                  But 100% confidence is unattainable in inferential statistics, as absolute certainty is impossible.
 
 
 - Hypothesis Testing: is a cutial part of inferential statistics is which you evaluate 2 mutually exclusive statements. To determine which event is true to the dataset given. (Mutually exclusive two terms cannot coenside, you cannt flip heads and tails at the same time)
