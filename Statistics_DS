@@ -1,6 +1,5 @@
 |- Statistics Introduction -|
 
-
 Data: Characteristics or attributes of items that can be collected and analyzed.
 Population: The entire group of interest from which data could be collected for the purpose of study and expirimentation.
 Sample: A subset of the population selected for analysis in an experiment.
@@ -26,7 +25,7 @@ Sample: A subset of the population selected for analysis in an experiment.
 - Measures of Position: Identifies the exact location of an observed value within the dataset. Naamely standard scores
 
 
-> Statistics Explained--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> STATISTICS 101--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 | Statistics Explained |
 
@@ -52,7 +51,7 @@ Confidence Level: The probability that the results from a sample reflect the tru
                       
 
 
-> Data Sampling--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> DATA SAMPLING---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Types of Data Sampling 
 (Should Be)
 - Independant Data: Each selection of on eitem should not affect the selection of annother
@@ -62,7 +61,7 @@ Confidence Level: The probability that the results from a sample reflect the tru
 - Social Desireability Bias: When respodants are inclined to paint themselves in a light that meets social norms 
 - Collection Bias: Data observation must be unbaised and unmanipulated by the colllecting party
 
-> Odds and Probability Explained ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> ODDS AND PROBABILITY--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - As hypothesis test cannot give the odds or probaility(P/A) of an even we use thesse methods. For example h1 given the humidity it will rain today. P/A tell us by char numerical chance.
 
 - Odds: are the chance of an even occoring for every chance the event does not occur. for example chance of rolling any nimber is 1 in 6. Odds are normally shown as a ratio but can be a percentage also.
@@ -96,6 +95,7 @@ Confidence Level: The probability that the results from a sample reflect the tru
   - Binomial Probability: Is probability method used to interpret two possible outcomes. Used in (pregnancy, drugs, coinflip)
   - Permutations: is a method for calcualtion and handling large numbers of combinations 
 
+CENTRAL TENDANCY-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   > Central Tendency: the propensity for data to centralise to a certain point when avaraged. Common methods for calculating central tendency is (Mean, Median, Mode)
                     As will be demonstaretd the appropriate measure of central tendency highly depends on the comnposition of data
   - Mean:  all values sumerised and deviided by individual sets
@@ -103,6 +103,7 @@ Confidence Level: The probability that the results from a sample reflect the tru
   - Median: Great method for 
   - Mode: is the commonly occuring value in dataset. best used in ordered number of discrete(finite) values. issue swith this method occurs with arbatrary data where there is no conclusive modal value.
 
+MEASURES OF SPREAD-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   > Measures of Spread:  
   - Range: A simple measurement of varience. In certain ceumstances can be usful although can be suseptible anomelies for example extreme values assume high varience in the dataset. Which often ignores data clusters therefore not reflecting the datas true structure
   - Standard Deviation: An alternative to the range, and more practical approach to measuring data varience. St.D describes the extent of individual observations differ from the mean essentially the spread of dispertion of data points.
@@ -115,12 +116,13 @@ Confidence Level: The probability that the results from a sample reflect the tru
   - Emperical Rule: a useful visual technique for interpreting data variance plotted onto a histogram. An describes the normal distribution as 68% data lies within 1 St.D of mean. 95% within 2 St.D of the mean and 99.7% within 3 St.D of the mean.
                   known as the 'three sigma rule' 68, 95, 99.7 (sigma the mathematical symbol for St.D)
 
-    - Normal distribution: is the bell curve observed and obtained by implementing the empirical rule. A normal distribution with a 'Mean of 0 and St.D of 1' is also know as standard normal distribution
+  - Normal distribution: is the bell curve observed and obtained by implementing the empirical rule. A normal distribution with a 'Mean of 0 and St.D of 1' is also know as standard normal distribution
                     normal distribution is a resonable representation of real world cariables diverge around the mean this pheoneomoa is what sknown as empirical rule.
                      normal distribution > standard normal distribution (by converting original values into standardised scores) for more details see the St.D notes in my notability.
                      68% data lies within 1 St.D on dataset. 27% within 2 St.D of the dataset and 4.7% within 3 St.D of dataset. Each St.D is calcualted mean +- standard diviation. 
                     the more data thats is collected more more values that fit the 1 St.D contorting the bell curve even pointier. Even other other method of central tendency (fall within the 1 St.D the curve) 
-  
+
+  MEASURES OF POSITION-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     - Measures of Position: measures the porobaility of duplicating a result. As a weakness of the St.D Maps the variance of whole dataset. Although not the variance of individual plotpoints
     
            - Z-Score: Now the z-scores was found using a methods of standard normal distribution called z-distribution to find the Z score. 
@@ -140,10 +142,22 @@ Confidence Level: The probability that the results from a sample reflect the tru
                 Therefore we dont know if the sample is a true representation of the population. Unlike Z-Distributions bellcurve the T-distribution when sample size is relatively small e.g. 10 the data a noteable proportion of date is located in the curve tails
                 T-distribution curve changes shape accoding to sample size. (flat curve - little sample, clustered middle dataset) or assuming a bell curve with more data.
                 In theCalculating the T-Scores St.D is divided by sample size. the standard deviation aims to reflect the pupolation by dividing St.d by sample size.
-                As the T-scores doesnt follow the 'three sigma rule we use' you use the t-table to find the pobability of the result, the t tables displayes degrees of freedom which is sample size - df
-    - degrees of freedom: population sample size - 1 methric to calcualte probability using a t-table and t distribution
+                As the T-scores doesnt follow the 'three sigma rule we use' you use t-tables. 
+    - T-tables: the t-table is used to find the pobability of the result, the t-tables displayes degrees of freedom which is sample size - df
+    - Degrees_of_Freedom: population sample size - 1 methric to calcualte probability using a t-table and t distribution
 
-                      
-how to interpret t-table 
+THE HYPOTHESIS TEST-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-T-score formula  jsut like whenb calcualtion st.d the division aims to emilinate bias how does this work? how do we know this works? 
+Confidence Level: The probability that the results from a sample reflect the true values for the population, expressed as a percentage (e.g., 95%). A higher confidence level (close to 100%) indicates a stronger belief that the sample accurately represents the population, but 100% confidence is unattainable in inferential statistics, as absolute certainty is impossible.
+Confidence Interval: is the range of values in which we test our hypothesis
+Hypothesis Testing: is a cutial part of inferential statistics is which you evaluate 2 mutually exclusive statements. To determine which event is true to the dataset given. (Mutually exclusive two terms cannot coenside, you cannt flip heads and tails at the same time)
+                      Due to the absence of data in inferental statiustics hypothesis testing is used to determine if theres reasonanle evidence from the sample to infer if a condition 'H0 or HA' holds true
+                      They are constructed around a hypothesiss statement. From this ststement if you discover indemendant variable(x) has no effect on dependant variable(y) the outcome confirms the null hypothesis. 
+                      H0 - is the commonly accepted fact but is simultaniously open to contrary arguments. ('H1' = contrary argument the alternative hypothesis) and ('h0' is the commently accepted fact, the null hypothesis)
+                      If there enough evidence to suppost the contrary then the null hypothesis is rejected and the alternatiuve hypotheisis is accepted to explain the randomness or phenomnena
+
+One-Tailed Test - one direction test 
+
+Two-Tailed Test - Goal is not to challange the null hypotesis in any one direction but to consider both directions in as evidence of an alternative hypothesis. 
+
+T-score formula  just like whenb calcualtion st.d the division aims to emilinate bias how does this work? how do we know this works? 
