@@ -100,6 +100,14 @@ Confidence Level: The probability that the results from a sample reflect the tru
   - Binomial Probability: Is probability method used to interpret two possible outcomes. Used in (pregnancy, drugs, coinflip)
   - Permutations: is a method for calcualtion and handling large numbers of combinations 
 
+  - False Positive (Type I Error): In the context of Bayesian inference, a false positive would occur if you incorrectly update your belief to strongly favor a hypothesis (rejecting the null) when, in reality, 
+                                   the null hypothesis (no effect) is true. This would lead you to assign a high probability to a relationship or effect that doesn’t exist.
+                                   You assign a high posterior probability to an effect or relationship (rejecting the null) when the data doesn't support it.
+
+  - False Negative (Type II Error): A false negative in Bayesian statistics would happen if you fail to update your belief sufficiently,   
+                                    Thereby incorrectly accepting the null hypothesis or not giving enough probability to the alternative hypothesis when, in fact, there is a relationship or effect.
+                                    You fail to give enough weight to a relationship (failing to reject the null) even though the data suggests it’s likely.
+
 CENTRAL TENDANCY-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   > Central Tendency: the propensity for data to centralise to a certain point when avaraged. Common methods for calculating central tendency is (Mean, Median, Mode)
                     As will be demonstaretd the appropriate measure of central tendency highly depends on the comnposition of data
@@ -110,21 +118,25 @@ CENTRAL TENDANCY----------------------------------------------------------------
 
 MEASURES OF SPREAD-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   > Measures of Spread:  
-  - Range: A simple measurement of varience. In certain ceumstances can be usful although can be suseptible anomelies for example extreme values assume high varience in the dataset. Which often ignores data clusters therefore not reflecting the datas true structure
-  - Standard Deviation: An alternative to the range, and more practical approach to measuring data varience. St.D describes the extent of individual observations differ from the mean essentially the spread of dispertion of data points.
-                          St.D measures variability by calulating average squared distance of each data point from the mean. When the metric is lower than the mean it indicates most of the data values are clustered closely together and high St.D indicates higher variability
-                          Using the St.D formula you can calculate varience of each plotpoint. Sum the variance. As well as apply squareroot to bring the value back to a usable metric.
+  - Range: A simple measurement of varience. In certain ceumstances can be usful although can be suseptible anomelies for example extreme values assume high varience in the dataset. 
+           Which often ignores data clusters therefore not reflecting the datas true structure
 
-  - Varience: Variance: A measure of how spread out the values in a dataset are around the mean. It is calculated as the average of the squared differences between each data point and the mean. 
-                          Variance is the square of the standard deviation and represents the "average squared distance" of each value from the mean, providing an inflated view of the spread to prevent cancellation of positive and negative deviations.
+  - Standard Deviation: An alternative to the range, and more practical approach to measuring data varience. St.D describes the extent of individual observations differ from the mean essentially the spread of dispertion of data points.
+                        St.D measures variability by calulating average squared distance of each data point from the mean. 
+                        When the metric is lower than the mean it indicates most of the data values are clustered closely together and high St.D indicates higher variability
+                        Using the St.D formula you can calculate varience of each plotpoint. Sum the variance. As well as apply squareroot to bring the value back to a usable metric.
+
+  - Varience: Variance is a measure of how spread out the values in a dataset are around the mean. It is calculated as the average of the squared differences between each data point and the mean. 
+              Variance is the square of the standard deviation and represents the "average squared distance" of each value from the mean, providing an inflated view of the spread to prevent cancellation of positive and negative deviations.
+  - Co-Variance: a measurement of relationship between the variance of two wariable
 
   - Emperical Rule: a useful visual technique for interpreting data variance plotted onto a histogram. An describes the normal distribution as 68% data lies within 1 St.D of mean. 95% within 2 St.D of the mean and 99.7% within 3 St.D of the mean.
-                  known as the 'three sigma rule' 68, 95, 99.7 (sigma the mathematical symbol for St.D)
+                    known as the 'three sigma rule' 68, 95, 99.7 (sigma the mathematical symbol for St.D)
 
   - Normal distribution: is the bell curve observed and obtained by implementing the empirical rule. A normal distribution with a 'Mean of 0 and St.D of 1' is also know as standard normal distribution
                     normal distribution is a resonable representation of real world cariables diverge around the mean this pheoneomoa is what sknown as empirical rule.
-                     normal distribution > standard normal distribution (by converting original values into standardised scores) for more details see the St.D notes in my notability.
-                     68% data lies within 1 St.D on dataset. 27% within 2 St.D of the dataset and 4.7% within 3 St.D of dataset. Each St.D is calcualted mean +- standard diviation. 
+                    normal distribution > standard normal distribution (by converting original values into standardised scores) for more details see the St.D notes in my notability.
+                    68% data lies within 1 St.D on dataset. 27% within 2 St.D of the dataset and 4.7% within 3 St.D of dataset. Each St.D is calcualted mean +- standard diviation. 
                     the more data thats is collected more more values that fit the 1 St.D contorting the bell curve even pointier. Even other other method of central tendency (fall within the 1 St.D the curve) 
 
   MEASURES OF POSITION-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -160,9 +172,14 @@ Hypothesis Testing: is a cutial part of inferential statistics is which you eval
                       They are constructed around a hypothesiss statement. From this ststement if you discover indemendant variable(x) has no effect on dependant variable(y) the outcome confirms the null hypothesis. 
                       H0 - is the commonly accepted fact but is simultaniously open to contrary arguments. ('H1' = contrary argument the alternative hypothesis) and ('h0' is the commently accepted fact, the null hypothesis)
                       If there enough evidence to suppost the contrary then the null hypothesis is rejected and the alternatiuve hypotheisis is accepted to explain the randomness or phenomnena
+                      Note that neither h1 or h0 can be proven unequivocally correct. Its rather inference based on sample data. Consider it probablistic rather than absolute
+                      Mistakes can occur in form or false positives.
+
+False-Positives: h0 rejected instead of accepted (Type I Error). The observes releationship in the covarience PROBABLY WAS DUE TO CHANCE.              
+False-Negative: h0 was accepted where it should have been rejected (Type II Error). The observed covarience PROBABLY WAS NOT DUE TO CHANCE.
+
+Statistical Significance: Sample data cannot true be reliabele and represaentitive of the whole population
 
 One-Tailed Test - one direction test 
-
 Two-Tailed Test - Goal is not to challange the null hypotesis in any one direction but to consider both directions in as evidence of an alternative hypothesis. 
-
 T-score formula  just like whenb calcualtion st.d the division aims to emilinate bias how does this work? how do we know this works? 
