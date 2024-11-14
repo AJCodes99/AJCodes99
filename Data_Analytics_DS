@@ -1,7 +1,26 @@
 DATA ANALYTICS
+  - History of data collection 
 
 > THE COLLECTION OF DATA
+  - Internal acqusition systems: As it stands this is the most common source of data collection and is the first source an organisation turns to for insight
+    examples of internal systems web analystics software, digital records of customers stored is CMS customer management system
+    This data can be the data can be manipulated and exported in CSV to be analysed and view in other progams or software
+    Large amount of company data can be stored on DFS distributed file system
+
+  - Data Procurement: When companies lack sufficient data to make decisions. A method is to procure the data from parties ouside the company.
+
+  - Alternative Data: often used in finance and banking. Obtained from non traditional sources 
+
+  - Web Scraping: Method used for collecting data on the web using code and automatiom, saves times copy pasting data from webpages manually. 
+                  You cal also webscrape use python packages to simplify code or online toops for drag and drop scraping
+                  Considered the best way to source public data and alternative data. When scraped dta scan be stored in CSV JSON or Cloud
+  - Open Source Data: Data evailable for collection and use by anyone. examples can range from   
+                      government websites, google cloud public data, microsoft research opendata, world bank open data and kaggle.
+
 > STORING DATA
+  - Raw data: unprocessed unmanipulated data. For example consider a kickstater pledge as a paragraph consisting campaign name, date ectect
+  - Structured data: processed, manipulated data. For example a kick starter pledge for whole in the form of campaign name, date ect 6 variables columns
+
 > VARIABLES
 > DATA SCRUBBING
 > METHODOLOGY
