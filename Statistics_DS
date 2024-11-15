@@ -178,8 +178,18 @@ Hypothesis Testing: is a cutial part of inferential statistics is which you eval
 False-Positives: h0 rejected instead of accepted (Type I Error). The observes releationship in the covarience PROBABLY WAS DUE TO CHANCE.              
 False-Negative: h0 was accepted where it should have been rejected (Type II Error). The observed covarience PROBABLY WAS NOT DUE TO CHANCE.
 
-Statistical Significance: Sample data cannot true be reliabele and represaentitive of the whole population
+Statistical Significance (p-value): We use significance thresholds to dertiermin weather the difference in these results are signifitcant enough to reject the h0 null hypothesis. 
+                                    The p-value is the unit of measure p-value of 0.05 is 5% probability or repeating the result. 
+                                    The p-value associated with alpha value. 
+                                    -If p-value is equal too or less than the alpha = IS statistically significant and we reject the null hypothesis
+                                    -If p-value is greater than the alpha = NOT statistical significance and cannot reject null hypothesis
+                                    Sample data cannot true be reliabele and representitive of the whole population. 
+                                    In the case of two sets of result achieved from 2 different researchers  Average hours spend on PC per week in usa. Two results in hours are 30 and 22.
+                                    We use statistcal significane to determine whether the time difference is significant enough to reject the null hypothesis
+                         
+alpha: is equal to the probability of a Type I error
 
+Questions
 One-Tailed Test - one direction test 
 Two-Tailed Test - Goal is not to challange the null hypotesis in any one direction but to consider both directions in as evidence of an alternative hypothesis. 
 T-score formula  just like whenb calcualtion st.d the division aims to emilinate bias how does this work? how do we know this works? 
